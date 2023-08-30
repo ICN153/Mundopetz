@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 4px 75px;
+  color: aqua;
+  font-family: "Mirza", cursive;
+}
+.header {
+  background-color: grey;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+  margin-right: 75px;
+}
+
+.buttonheader {
+  font-family: CircularXX !important;
+  font-size: 15px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
